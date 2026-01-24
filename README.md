@@ -84,7 +84,7 @@ The system tracks:
 - Daily / weekly / monthly ROI
 - Trade-level execution history
 - Strategy-specific contribution metrics
-![Architecture Diagram](docs/dashboard.png)
+![Performance Dashboard](docs/dashboard.png)
 
 All metrics are derived from **actual executed trades**, not simulations.
 
