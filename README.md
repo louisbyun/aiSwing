@@ -140,10 +140,10 @@ Built and operated by an engineer with experience in:
                                  │
                                  ▼
 ┌───────────────────┐    ┌──────────────────────────┐
-│   Scheduler       │───▶│     Trading Engine       │
-│  (APScheduler)    │    │  - RSI Staged Buy         │
-│                   │    │  - Slope Adjustment       │
-│                   │    │  - Market State Filter    │
+│   Scheduler       │───▶│     Trading Engine      │
+│  (APScheduler)    │    │  - RSI Staged Buy        │
+│                   │    │  - Slope Adjustment      │
+│                   │    │  - Market State Filter   │
 └─────────┬─────────┘    └────────────┬─────────────┘
           │                             │
           ▼                             ▼
