@@ -74,6 +74,7 @@ Instead, it emphasizes:
 - Minimum order protection
 - Trade throttling during extreme volatility
 - No revenge trading, no overtrading
+![Performance Dashboard](/mystrategy.png)
 
 ---
 
