@@ -1,6 +1,18 @@
 # aiSwing™
 
 **aiSwing™ Crypto** is an end-to-end automated swing crypto trading platform engineered from scratch for real-market execution — not demos or backtests.
+aiSwing™ was designed, implemented, and is actively operated by a systems engineer with hands-on experience in:
+
+- Production-grade backend development using **Python (Flask)**  
+- Data modeling and persistence with **PostgreSQL / SQLAlchemy**
+- Containerized deployment using **Docker**
+- Scheduled and stateful automation via **APScheduler**
+- Exchange-level execution and reconciliation via **Coinbase & Upbit APIs**
+- Structured logging, diagnostics, and runtime observability
+- Risk-aware automation design inspired by real manufacturing systems
+
+The platform is developed and maintained in a live environment with real capital, real executions, and continuous iteration based on production data.
+
 
 This system is built around one core philosophy:
 
