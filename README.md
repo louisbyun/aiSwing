@@ -31,6 +31,7 @@ It focuses on:
 - Staged entries instead of all-in trades
 - Capital preservation during drawdowns
 - Consistent, repeatable behavior over market cycles
+![aiSwing™ Crypto](/aiswing-arch.png)
 
 This is a continuously running and actively maintained system.
 
@@ -74,7 +75,7 @@ Instead, it emphasizes:
 - Minimum order protection
 - Trade throttling during extreme volatility
 - No revenge trading, no overtrading
-![Performance Dashboard](/mystrategy.png)
+![My Strategy](/mystrategy.png)
 
 ---
 
