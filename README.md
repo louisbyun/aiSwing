@@ -24,6 +24,8 @@ This system is built around one core philosophy:
 
 aiSwing™ is a production-grade automated trading system designed to operate under real market conditions using live capital.
 
+The system executes real trades through direct integration with the **Coinbase Exchange API**, enabling programmatic order placement, execution tracking, and post-trade reconciliation.
+
 It focuses on:
 - Risk-first execution
 - Staged entries instead of all-in trades
