@@ -130,6 +130,48 @@ Built and operated by an engineer with experience in:
 🟢 **Live trading with real capital**  
 🟢 **Continuous iteration & risk tuning**
 
+## 🏗️ System Architecture
+
+```text
+                    ┌──────────────────────────┐
+                    │        Web Dashboard     │
+                    │   (Performance / ROI)    │
+                    └────────────┬─────────────┘
+                                 │
+                                 ▼
+┌───────────────────┐    ┌──────────────────────────┐
+│   Scheduler       │───▶│     Trading Engine       │
+│  (APScheduler)    │    │  - RSI Staged Buy         │
+│                   │    │  - Slope Adjustment       │
+│                   │    │  - Market State Filter    │
+└─────────┬─────────┘    └────────────┬─────────────┘
+          │                             │
+          ▼                             ▼
+┌───────────────────┐    ┌──────────────────────────┐
+│ Market Data Layer │    │   Risk & Capital Manager │
+│ - OHLCV / RSI     │    │  - Max Invest Ratio      │
+│ - Indicators      │    │  - Position Sizing       │
+└─────────┬─────────┘    └────────────┬─────────────┘
+          │                             │
+          ▼                             ▼
+┌────────────────────────────────────────────────────┐
+│                Exchange API Layer                  │
+│           (Coinbase / Upbit Execution)             │
+└─────────┬───────────────────────────────┬─────────┘
+          │                               │
+          ▼                               ▼
+┌──────────────────────┐      ┌──────────────────────┐
+│     Trade Logger     │      │   Notification Bot   │
+│  - Orders / Fills    │      │ Telegram / Email     │
+└─────────┬────────────┘      └──────────────────────┘
+          │
+          ▼
+┌────────────────────────────────────────────────────┐
+│                 PostgreSQL Database                │
+│  Trades | Positions | Cash | ROI | Metrics         │
+└────────────────────────────────────────────────────┘
+
+
 ---
 
 > *“A system that survives long enough eventually wins.”*
