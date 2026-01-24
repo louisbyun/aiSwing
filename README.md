@@ -31,7 +31,7 @@ It focuses on:
 - Staged entries instead of all-in trades
 - Capital preservation during drawdowns
 - Consistent, repeatable behavior over market cycles
-![aiSwing™ Crypto](/aiswing-arch.png)
+![aiSwing™ Crypto](/aiSwing-arch.png)
 
 This is a continuously running and actively maintained system.
 
