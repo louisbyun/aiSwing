@@ -162,15 +162,15 @@ Built and operated by an engineer with experience in:
 │                   │    │  - Slope Adjustment      │
 │                   │    │  - Market State Filter   │
 └─────────┬─────────┘    └────────────┬─────────────┘
-          │                             │
-          ▼                             ▼
+          │                           │
+          ▼                           ▼
 ┌───────────────────┐    ┌──────────────────────────┐
 │ Market Data Layer │    │   Risk & Capital Manager │
 │ - OHLCV / RSI     │    │  - Max Invest Ratio      │
 │ - Indicators      │    │  - Position Sizing       │
 └─────────┬─────────┘    └────────────┬─────────────┘
-          │                             │
-          ▼                             ▼
+          │                           │
+          ▼                           ▼
 ┌────────────────────────────────────────────────────┐
 │                Exchange API Layer                  │
 │           (Coinbase / Upbit Execution)             │
