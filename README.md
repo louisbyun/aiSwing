@@ -191,4 +191,4 @@ Built and operated by an engineer with experience in:
 
 ---
 
-> *“A system that survives long enough eventually wins.”*
+"A system that survives long enough eventually wins.”
