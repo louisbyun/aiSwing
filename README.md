@@ -82,7 +82,8 @@ Instead, it emphasizes:
 ## 🏗️ System Architecture
 
 - **Backend**: Python (Flask)
-- **Database**: PostgreSQL
+- **Database**: PostgreSQL / SQLAlchemy ORM
+- **Frontend**: Jinja2 templates, Bootstrap 5, Vue.js
 - **Execution**: Exchange API–driven (Coinbase / Upbit)
 - **Runtime**: Dockerized environment
 - **Scheduling**: APScheduler
