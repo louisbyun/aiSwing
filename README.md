@@ -55,6 +55,8 @@ Instead, it emphasizes:
 - **Capital-first design**  
   Maximum investment ratio enforced at all times (cash is always reserved)
 
+  ![aiSwing X™ Data Service Server](/data-service-server.png)
+
 ---
 
 ## ⚙️ Key Features
